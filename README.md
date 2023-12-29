@@ -3,7 +3,7 @@
 <img src="./photos/Harris Corners.png" />
 300 Harris Corners are computed using the code in Corner Detection. The two images along with the corners are shown side by side to compare the similarities with ease.
 
-<img src="./photos/Corner Correspondenses.png" />
+<img src="./photos/Corner Correspondence.png" />
 Then the patches with half-wid 30, are extracted from each corner and normalized by subtracting the mean and dividing with standard deviation. It is correlated with each corner in the im_dest and the bilinearly largest correspondences are stored, however this set contains a lot of outliers.
 
 <img src="./photos/filtered correspondence.png" />

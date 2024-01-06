@@ -1,7 +1,8 @@
 # Image Mosaic
 
 ## Motivation
-<img src="./include/Image1.jpg" width="300" hspace="50"/><img src="./include/Image2.jpg" width="300" />
+<img src="./include/Image1.jpg"/><img src="./include/Image2.jpg"/>
+
 These are the the two input images we want to combine. One is captured in the morning and the other in the evening. There are both rotation and translation differences between the two.
 
 ## Harris Corner Detectoin

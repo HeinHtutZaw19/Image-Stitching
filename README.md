@@ -15,7 +15,7 @@ These are the the two input images we want to combine. One is captured in the mo
 
 ## Corner Correspondence
 <img src="./photos/Corner Correspondence.png" />
-Then the patches with half-wid 30, are extracted from each corner and normalized by subtracting the mean and dividing with standard deviation. It is correlated with each corner in the im_dest and the bilinearly largest correspondences are stored, however this set contains a lot of outliers.
+Then the patches with half-wid 30, are extracted from each corner and normalized by subtracting the mean and dividing with standard deviation. It is correlated with each corner in the im_dest and the bidirectionally largest correspondences are stored, however this set contains a lot of outliers.
 
 ## Ransac Filtering Algorithm
 <img src="./photos/filtered correspondence.png" />

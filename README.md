@@ -21,6 +21,6 @@ Then the patches with half-wid 30, are extracted from each corner and normalized
 <img src="./photos/filtered correspondence.png" />
 The inliers are filtered out by randomly choosing four correspondences, computing homography, applying to the corners and comparing the euclidean distances between the corners with matched correspondences. The maximum inlier set and the relating homography matrix are stored, the new best homography matrix is computed with all the points in the inlier set.
 
-## Backward bilinear warping
+## Backward bilinear warping & Image Blending
 <img src="./photos/Image Mosaic.png" />
 For the intersected section of the two images, it is blended out by averaging the backward warping of im_src and im_dest and actual values of im_dest. Then, the residual pixels from im_src also undergo a backward warping process with the inverse homography matrix. The resultant residual pixels are concatenated with the blended intersected section and also for the third part, the residual im_dest pixels. Since there will be black holes in front of this image mosaic, the last column index where all the elements in the column contains 0 is searched and truncated from the resultant image.

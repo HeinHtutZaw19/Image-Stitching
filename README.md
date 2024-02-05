@@ -1,4 +1,4 @@
-# Image Mosaic
+# Panorama
 
 ## Motivation
 <p align="center">

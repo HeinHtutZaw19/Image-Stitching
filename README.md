@@ -1,4 +1,4 @@
-# Panorama
+# Image Stitching
 
 ## Motivation
 <p align="center">
